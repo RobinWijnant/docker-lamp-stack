@@ -1,4 +1,4 @@
-# Dev stack using docker-compose
+# Lamp stack using docker-compose
 
 A 2018 updated lamp stack using docker-compose v3.
 
@@ -36,7 +36,7 @@ Execute in the root of the repository:
 docker-compose up -d
 ```
 
-**Note:** Warnings that occur during the docker build are related to the image, not to this dev stack.
+**Note:** Warnings that occur during the docker build are related to the image, not to this lamp stack.
 
 ## Usage
 

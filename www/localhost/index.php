@@ -9,11 +9,11 @@
     <link rel="stylesheet" type="text/css" href="/node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" type="text/css" href="/node_modules/highlightjs/styles/default.css">
     <link rel="stylesheet" type="text/css" href="/css/dashboard.css">
-    <title>Dev Stack Dashboard</title>
+    <title>Lamp Stack Dashboard</title>
 </head>
 <body class="markdown-body">
     <div class="wrapper dashboard">
-        <h1>Dev Stack Dashboard</h1>
+        <h1>Lamp Stack Dashboard</h1>
         <h2>Available hosts</h2>
         <ul class="hosts js-hosts clearfix">
             <li class="hidden js-host-example">
