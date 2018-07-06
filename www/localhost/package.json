@@ -1,0 +1,15 @@
+{
+  "name": "dev_stack",
+  "version": "1.0.0",
+  "description": "Dev stack",
+  "main": "index.php",
+  "repository": "https://github.com/RobinWijnant/docker-compose-dev-stack.git",
+  "author": "Robin Wijnant",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.1.0",
+    "github-markdown-css": "^2.10.0",
+    "highlightjs": "^9.10.0",
+    "jquery": "^3.3.1"
+  }
+}

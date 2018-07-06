@@ -1,0 +1,12 @@
+# This mysql.cnf is additional to the default my.cnf
+# Settings here override the default my.cnf
+
+
+[mysqld]
+
+# Use the mysql_native_password instead of caching_sha2_password
+# authentication method. This will not alter already created users. 
+default_authentication_plugin = mysql_native_password
+
+# Use local timezone (set in .ENV) for logging instead of UTC
+log_timestamps = SYSTEM

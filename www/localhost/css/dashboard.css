@@ -1,0 +1,94 @@
+.dashboard h1 {
+    margin: 5.0rem 0 4.0rem 0;
+}
+
+.dashboard h2 {
+    margin: 3.0rem 0 2.5rem 0;
+}
+
+ul.hosts {
+    margin: 0 0 0 -2.5%;
+    padding: 0;
+    width: 102.5%;
+}
+
+.hosts li {
+    float: left;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    list-style-type: none;
+    width: 22.5%;
+    min-width: 20.0rem;
+}
+
+.hosts li + li {
+    margin-top: 0;
+}
+
+.hosts li a {
+    border: 0.1rem solid lightgray;
+    color: #222222;
+    border-radius: 0.4rem;
+    display: inline-block;
+    width: 100%;
+}
+
+.hosts li a:hover {
+    text-decoration: none;
+    background-color: #EEEEEE;
+    transition-duration: 0.2s;
+}
+
+.hosts li a span {
+    display: block;
+}
+
+.dashboard ul li a .name {
+    padding: 0.8rem 1rem;
+}
+
+.dashboard ul li a .name > span {
+    display: inline-block;
+}
+
+.hosts li a .url {
+    background-color: #feeb7d;
+    padding: 0.2rem 1rem;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.hosts li a .js-url.available {
+    background-color: #90ea87;
+}
+
+.hosts li a .js-url.unavailable {
+    background-color: #f68e91;
+}
+
+.hosts li a i {
+    padding-right: 0.5rem;
+    color: gray;
+}
+
+ul.infos-tests {
+    margin: 0;
+    padding: 0;
+}
+
+.infos-tests li {
+    list-style-type: none;
+    float: left;
+}
+
+.infos-tests li + li {
+    margin: 0 0 0 3rem;
+}
+
+.infos-tests li a {
+    color: #222222;
+}
+
+.infos-tests li a i {
+    color: gray;
+}
